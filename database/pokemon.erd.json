@@ -6,8 +6,8 @@
     "height": 2000,
     "scrollTop": 0,
     "scrollLeft": 0,
-    "originX": -666.622,
-    "originY": -32.5549,
+    "originX": -973.622,
+    "originY": -644.5549,
     "zoomLevel": 0.73,
     "show": 431,
     "database": 4,
@@ -62,7 +62,8 @@
       "MXPjBtNWtUM_wb9eQp5dj",
       "LSznLgDClwmiSjCcT8tKk",
       "fEoAntzbxonHIoAsKzRCW",
-      "G_N7ARBLHDFYECuE5FrB0"
+      "G_N7ARBLHDFYECuE5FrB0",
+      "ihGCsanndp6RyDp9zE9EW"
     ],
     "indexIds": [],
     "memoIds": []
@@ -163,7 +164,8 @@
           "Oi7nBkL2Y0J36f9uBYRvG",
           "eWB_rzPN_NmLXWKGxYO_e",
           "4BhCc_vKAgjsOgGEjmdVL",
-          "-SGIGWs_DGW1mbYAlx2fm"
+          "-SGIGWs_DGW1mbYAlx2fm",
+          "mTmREFXkzboGXPh2XNjMe"
         ],
         "seqColumnIds": [
           "J91phhWXwub025S9yFCWJ",
@@ -183,7 +185,8 @@
           "eWB_rzPN_NmLXWKGxYO_e",
           "4BhCc_vKAgjsOgGEjmdVL",
           "KUIPbxGX0A0wXA4tnoBNF",
-          "-SGIGWs_DGW1mbYAlx2fm"
+          "-SGIGWs_DGW1mbYAlx2fm",
+          "mTmREFXkzboGXPh2XNjMe"
         ],
         "ui": {
           "x": 1785.0677,
@@ -194,7 +197,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1791229843287,
+          "updateAt": 1791567582423,
           "createAt": 1791223642837
         }
       },
@@ -515,15 +518,15 @@
           "wyX23siWobDB70ZSTIg0-"
         ],
         "ui": {
-          "x": 2269.4686,
-          "y": 1319.4836,
+          "x": 2277.6878,
+          "y": 1314.0041,
           "zIndex": 14,
           "widthName": 60,
           "widthComment": 60,
           "color": ""
         },
         "meta": {
-          "updateAt": 1791229774949,
+          "updateAt": 1791567580343,
           "createAt": 1791227971213
         }
       }
@@ -2128,6 +2131,26 @@
           "updateAt": 1791229843077,
           "createAt": 1791229843077
         }
+      },
+      "mTmREFXkzboGXPh2XNjMe": {
+        "id": "mTmREFXkzboGXPh2XNjMe",
+        "tableId": "irK4GoqtlrsNqCm9zhyoE",
+        "name": "id_pokedex_2",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 74,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1791567582423,
+          "createAt": 1791567582423
+        }
       }
     },
     "relationshipEntities": {
@@ -2173,8 +2196,8 @@
           "columnIds": [
             "J91phhWXwub025S9yFCWJ"
           ],
-          "x": 2012.5677,
-          "y": 1149.1652,
+          "x": 2016.0677,
+          "y": 1173.1652,
           "direction": 8
         },
         "end": {
@@ -2293,8 +2316,8 @@
           "columnIds": [
             "J91phhWXwub025S9yFCWJ"
           ],
-          "x": 2240.0677,
-          "y": 1074.1652,
+          "x": 2247.0677,
+          "y": 1026.1652,
           "direction": 2
         },
         "end": {
@@ -2474,7 +2497,7 @@
             "J91phhWXwub025S9yFCWJ"
           ],
           "x": 1785.0677,
-          "y": 1074.1652,
+          "y": 1086.1652,
           "direction": 1
         },
         "end": {
@@ -2579,6 +2602,36 @@
         "meta": {
           "updateAt": 1791229843077,
           "createAt": 1791229843077
+        }
+      },
+      "ihGCsanndp6RyDp9zE9EW": {
+        "id": "ihGCsanndp6RyDp9zE9EW",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "Gst34os3xYTM2GjQozVmw",
+          "columnIds": [
+            "JEJwgU2h7XP_TcYpjTWNH"
+          ],
+          "x": 2471.6878,
+          "y": 1314.0041,
+          "direction": 4
+        },
+        "end": {
+          "tableId": "irK4GoqtlrsNqCm9zhyoE",
+          "columnIds": [
+            "mTmREFXkzboGXPh2XNjMe"
+          ],
+          "x": 2247.0677,
+          "y": 1146.1652,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1791567582423,
+          "createAt": 1791567582423
         }
       }
     },
